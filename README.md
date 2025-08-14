@@ -79,3 +79,35 @@ Feel free to contribute improvements or report issues. This project is for educa
 
 *Developed as a practical embedded systems project leveraging Raspberry Pi and the Raphael Kit.*
 
+## 📅 Day-by-Day Progress Log
+
+### Day 1 – Initial Setup
+- **Hardware**: Raspberry Pi setup, SSH connection established.
+- **Software**: Created virtual environment, basic directory navigation commands documented.
+- **Notes**: Linked Pi to GitHub, tested initial `blink.py` file push.
+
+---
+
+### Day 2 – Temperature & Humidity Sensor Integration
+- **Hardware**: Connected DHT11/DHT22 sensor to Raspberry Pi.
+- **Software**:  
+  1. Created Python script to read data from the sensor.  
+  2. Installed libraries in virtual environment:  
+     ```bash
+     python3 -m venv venv
+     source venv/bin/activate
+     pip install adafruit-circuitpython-dht
+     pip install RPi.GPIO
+     ```
+  3. Printed readings to terminal.  
+- **Notes**: Committed and pushed updated code & README.
+
+---
+
+### Day X – [Title of Activity]
+- **Hardware**: [Describe hardware changes]
+- **Software**: [Describe software/code updates]
+- **Notes**: [Any extra notes or issues encountered]
+
+---
+
